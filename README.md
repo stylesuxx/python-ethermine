@@ -4,7 +4,7 @@
 
 > Access Etherium related mining data in the [Ethermine mining pool](https://ethermine.org).
 
-All publicly [available Ethermine API endpoints](https://ethermine.org/api/pool) are wrapped. All endpoints return dicts containing the API data. Check the tests or API documentation to see all available fields.
+All publicly [available Ethermine API endpoints](https://ethermine.org/api/pool) are wrapped. All endpoints return dicts containing the API data or **None** if response status code was not 200. Check the tests or API documentation to see all available fields.
 
 ## Installation
 Install via PIP:
