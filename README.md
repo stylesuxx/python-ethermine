@@ -1,5 +1,7 @@
 # Python API wrapper for ehermine.org
 
+[![Build Status](https://travis-ci.org/stylesuxx/python-ethermine.svg?branch=master)](https://travis-ci.org/stylesuxx/python-ethermine)
+
 > Access Etherium related mining data.
 
 All publicly [available enpoints](https://ethermine.org/api/pool) are wrapped. All endpoints return dicts containing the API data. Check the tests or API documentation to see all available fields.
