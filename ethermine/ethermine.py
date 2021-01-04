@@ -15,7 +15,7 @@ class Ethermine:
         if response.status_code == 200:
             return response.json()["data"]
 
-        return False
+        return None
 
     def pool_stats(self) -> dict:
         """Get pool stats."""
