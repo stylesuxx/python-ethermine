@@ -2,13 +2,13 @@
 
 [![Build Status](https://travis-ci.org/stylesuxx/python-ethermine.svg?branch=master)](https://travis-ci.org/stylesuxx/python-ethermine)
 
-> Access Etherium related mining data.
+> Access Etherium related mining data in the [Ethermine mining pool](https://ethermine.org).
 
-All publicly [available enpoints](https://ethermine.org/api/pool) are wrapped. All endpoints return dicts containing the API data. Check the tests or API documentation to see all available fields.
+All publicly [available Ethermine API endpoints](https://ethermine.org/api/pool) are wrapped. All endpoints return dicts containing the API data. Check the tests or API documentation to see all available fields.
 
 ## Installation
 Install via PIP:
-```
+```bash
 pip install ethermine
 ```
 
@@ -99,3 +99,9 @@ monitors = ethermine.miner_worker_monitor("address", "worker")
 
 ## Development
 PR's are welcome - especially should the API change. Please also add tests - the tests should always represent the current state of the API including all fields.
+
+## Building Dist Package
+To build a distributable package run:
+```bash
+python setup.py sdist
+```
