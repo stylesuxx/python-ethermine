@@ -11,7 +11,7 @@ except(IOError, ImportError):
 setup(
     name='ethermine',
     packages=find_packages(include=['ethermine']),
-    version='0.1.3',
+    version='0.2.0',
     description='Ethermine API python wrapper',
     long_description=long_description,
     author='Chris Landa',
